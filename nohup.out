@@ -1,0 +1,10 @@
+./vegascoin-qt.pro: 1: ./vegascoin-qt.pro: TEMPLATE: not found
+./vegascoin-qt.pro: 2: ./vegascoin-qt.pro: TARGET: not found
+./vegascoin-qt.pro: 3: ./vegascoin-qt.pro: VERSION: not found
+./vegascoin-qt.pro: 4: ./vegascoin-qt.pro: INCLUDEPATH: not found
+./vegascoin-qt.pro: 5: ./vegascoin-qt.pro: DEFINES: not found
+./vegascoin-qt.pro: 6: ./vegascoin-qt.pro: CONFIG: not found
+./vegascoin-qt.pro: 23: ./vegascoin-qt.pro: OBJECTS_DIR: not found
+./vegascoin-qt.pro: 24: ./vegascoin-qt.pro: MOC_DIR: not found
+./vegascoin-qt.pro: 25: ./vegascoin-qt.pro: UI_DIR: not found
+./vegascoin-qt.pro: 28: ./vegascoin-qt.pro: Syntax error: word unexpected (expecting ")")
