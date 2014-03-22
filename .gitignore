@@ -1,7 +1,7 @@
 src/*.exe
-src/fuhcoin
-src/fuhcoind
-src/test_fuhcoin
+src/vegascoin
+src/vegascoind
+src/test_vegascoin
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_fuhcoin
 *.orig
 *.o
 *.patch
-.fuhcoin
+.vegascoin
 
 # Compilation and Qt preprocessor part
-*.qm
+#*.qm
 Makefile
-fuhcoin-qt
-fuhcoin-Qt.app
+vegascoin-qt
+VegasCoin-Qt.app
 
 # Unit-tests
 Makefile.test
-fuhcoin-qt_test
+vegascoin-qt_test
 
 # Resources cpp
 qrc_*.cpp

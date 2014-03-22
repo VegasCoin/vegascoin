@@ -5,6 +5,8 @@
 #include <QObject>
 #include <QMessageBox>
 
+class SendCoinsRecipient;
+
 QT_BEGIN_NAMESPACE
 class QFont;
 class QLineEdit;
@@ -13,9 +15,8 @@ class QDateTime;
 class QUrl;
 class QAbstractItemView;
 QT_END_NAMESPACE
-class SendCoinsRecipient;
 
-/** Utility functions used by the vegascoin-qt UI.
+/** Utility functions used by the Vegascoin Qt UI.
  */
 namespace GUIUtil
 {
@@ -23,17 +24,17 @@ namespace GUIUtil
     QString dateTimeStr(const QDateTime &datetime);
     QString dateTimeStr(qint64 nTime);
 
-    // Render addresses in monospace font
-    QFont bitcoinAddressFont();
+    // Render Vegascoin addresses in monospace font
+    QFont vegascoinAddressFont();
 
     // Set up widgets for address and amounts
     void setupAddressWidget(QLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
-    // Parse "vegascoin:" URI into recipient object, return true on succesful parsing
-    // See Bitcoin URI definition discussion here: https://bitcointalk.org/index.php?topic=33490.0
-    bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out);
-    bool parseBitcoinURI(QString uri, SendCoinsRecipient *out);
+    // Parse "vegascoin:" URI into recipient object, return true on successful parsing
+    // See Vegascoin URI definition discussion here: https://vegascointalk.org/index.php?topic=33490.0
+    bool parseVegascoinURI(const QUrl &uri, SendCoinsRecipient *out);
+    bool parseVegascoinURI(QString uri, SendCoinsRecipient *out);
 
     // HTML escaping for rich text controls
     QString HtmlEscape(const QString& str, bool fMultiLine=false);
@@ -47,7 +48,7 @@ namespace GUIUtil
      */
     void copyEntryData(QAbstractItemView *view, int column, int role=Qt::EditRole);
 
-    /** Get save file name, mimics QFileDialog::getSaveFileName, except that it appends a default suffix
+    /** Get save filename, mimics QFileDialog::getSaveFileName, except that it appends a default suffix
         when no suffix is provided by the user.
 
       @param[in] parent  Parent window (or 0)
@@ -95,7 +96,7 @@ namespace GUIUtil
     bool GetStartOnSystemStartup();
     bool SetStartOnSystemStartup(bool fAutoStart);
 
-    /** Help message, shown with --help. */
+    /** Help message for Vegascoin-Qt, shown with --help. */
     class HelpMessageBox : public QMessageBox
     {
         Q_OBJECT

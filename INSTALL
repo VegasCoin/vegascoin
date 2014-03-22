@@ -1,9 +1,9 @@
 Building VegasCoin
 
-See doc/readme-qt.rst for instructions on building vegascoin-qt,
+See doc/readme-qt.rst for instructions on building VegasCoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
 implementation of VegasCoin.
 
-See doc/build-*.txt for instructions on building vegascoin,
+See doc/build-*.txt for instructions on building vegascoind,
 the intended-for-services, no-graphical-interface, reference
 implementation of VegasCoin.

@@ -36,7 +36,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Bitcoin Core</string>
+          <string>VegasCoin Core</string>
          </property>
         </widget>
        </item>
@@ -315,14 +315,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Debug logfile</string>
+          <string>Debug log file</string>
          </property>
         </widget>
        </item>
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the VegasCoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</string>
+          <string>Open the VegasCoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -348,13 +348,10 @@
        <item row="17" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the vegascoin-qt help message to get a list with possible command-line options.</string>
+          <string>Show the VegasCoin-Qt help message to get a list with possible VegasCoin command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>
-         </property>
-         <property name="autoDefault">
-          <bool>false</bool>
          </property>
          <property name="autoDefault">
           <bool>false</bool>
@@ -433,7 +430,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../bitcoin.qrc">
+            <iconset resource="../vegascoin.qrc">
              <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="shortcut">
@@ -453,7 +450,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../bitcoin.qrc"/>
+  <include location="../vegascoin.qrc"/>
  </resources>
  <connections/>
 </ui>

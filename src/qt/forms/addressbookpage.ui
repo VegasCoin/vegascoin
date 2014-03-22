@@ -16,9 +16,6 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="labelExplanation">
-     <property name="text">
-      <string>These are your VegasCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
-     </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
      </property>
@@ -58,7 +55,7 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="newAddressButton">
+      <widget class="QPushButton" name="newAddress">
        <property name="toolTip">
         <string>Create a new address</string>
        </property>
@@ -66,13 +63,13 @@
         <string>&amp;New Address</string>
        </property>
        <property name="icon">
-        <iconset resource="../bitcoin.qrc">
+        <iconset resource="../vegascoin.qrc">
          <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="copyToClipboard">
+      <widget class="QPushButton" name="copyAddress">
        <property name="toolTip">
         <string>Copy the currently selected address to the system clipboard</string>
        </property>
@@ -80,7 +77,7 @@
         <string>&amp;Copy Address</string>
        </property>
        <property name="icon">
-        <iconset resource="../bitcoin.qrc">
+        <iconset resource="../vegascoin.qrc">
          <normaloff>:/icons/editcopy</normaloff>:/icons/editcopy</iconset>
        </property>
       </widget>
@@ -91,7 +88,7 @@
         <string>Show &amp;QR Code</string>
        </property>
        <property name="icon">
-        <iconset resource="../bitcoin.qrc">
+        <iconset resource="../vegascoin.qrc">
          <normaloff>:/icons/qrcode</normaloff>:/icons/qrcode</iconset>
        </property>
       </widget>
@@ -99,13 +96,13 @@
      <item>
       <widget class="QPushButton" name="signMessage">
        <property name="toolTip">
-        <string>Sign a message to prove you own a Bitcoin address</string>
+        <string>Sign a message to prove you own a VegasCoin address</string>
        </property>
        <property name="text">
-        <string>&amp;Sign Message</string>
+        <string>Sign &amp;Message</string>
        </property>
        <property name="icon">
-        <iconset resource="../bitcoin.qrc">
+        <iconset resource="../vegascoin.qrc">
          <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
        </property>
       </widget>
@@ -113,27 +110,27 @@
      <item>
       <widget class="QPushButton" name="verifyMessage">
        <property name="toolTip">
-        <string>Verify a message to ensure it was signed with a specified Bitcoin address</string>
+        <string>Verify a message to ensure it was signed with a specified VegasCoin address</string>
        </property>
        <property name="text">
         <string>&amp;Verify Message</string>
        </property>
        <property name="icon">
-        <iconset resource="../bitcoin.qrc">
+        <iconset resource="../vegascoin.qrc">
          <normaloff>:/icons/transaction_0</normaloff>:/icons/transaction_0</iconset>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="deleteButton">
+      <widget class="QPushButton" name="deleteAddress">
        <property name="toolTip">
-        <string>Delete the currently selected address from the list. Only sending addresses can be deleted.</string>
+        <string>Delete the currently selected address from the list</string>
        </property>
        <property name="text">
         <string>&amp;Delete</string>
        </property>
        <property name="icon">
-        <iconset resource="../bitcoin.qrc">
+        <iconset resource="../vegascoin.qrc">
          <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
        </property>
       </widget>
@@ -150,6 +147,20 @@
         </size>
        </property>
       </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exportButton">
+       <property name="toolTip">
+        <string>Export the data in the current tab to a file</string>
+       </property>
+       <property name="text">
+        <string>&amp;Export</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../vegascoin.qrc">
+         <normaloff>:/icons/export</normaloff>:/icons/export</iconset>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QDialogButtonBox" name="buttonBox">
@@ -169,7 +180,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../bitcoin.qrc"/>
+  <include location="../vegascoin.qrc"/>
  </resources>
  <connections/>
 </ui>
