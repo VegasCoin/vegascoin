@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Vegascoin developers
+// Copyright (c) 2009-2012 Bitcoin developers
 // Copyright (c) 2013-2014 Dr Kimoto Chan
+// Copyright (c) 2013-2100 Franko collective
 // Copyright (c) 2013-2100 VegasCoin collective
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
