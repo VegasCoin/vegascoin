@@ -1406,8 +1406,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Inscriptio cui mittere pensitationem (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to send the payment to (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Inscriptio cui mittere pensitationem (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Insero inscriptionem VegasCoin (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Insero inscriptionem VegasCoin (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Inscriptio qua signare nuntium (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to sign the message with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Inscriptio qua signare nuntium (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Inscriptio qua nuntius signatus est (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address the message was signed with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Inscriptio qua nuntius signatus est (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Insere inscriptionem VegasCoin (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Insere inscriptionem VegasCoin (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="-2"/>

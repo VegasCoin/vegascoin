@@ -1406,8 +1406,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>הכתובת שאליה ישלח התשלום (למשל FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to send the payment to (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>הכתובת שאליה ישלח התשלום (למשל QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>הכנס כתובת לייטקוין (למשל FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>הכנס כתובת לייטקוין (למשל QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>הכתובת איתה לחתום על ההודעה (למשל FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to sign the message with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>הכתובת איתה לחתום על ההודעה (למשל QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>הכתובת איתה ההודעה נחתמה (למשל FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address the message was signed with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>הכתובת איתה ההודעה נחתמה (למשל QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>הכנס כתובת לייטקוין (למשל FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>הכנס כתובת לייטקוין (למשל QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="-2"/>

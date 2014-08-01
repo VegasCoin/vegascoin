@@ -1410,7 +1410,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
+        <source>The address to send the payment to (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1451,8 +1451,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Introduce una dirección VegasCoin (ej. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Introduce una dirección VegasCoin (ej. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
 </context>
 <context>
@@ -1474,8 +1474,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Introduce una dirección VegasCoin (ej. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to sign the message with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Introduce una dirección VegasCoin (ej. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1547,8 +1547,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Introduce una dirección VegasCoin (ej. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address the message was signed with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Introduce una dirección VegasCoin (ej. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1568,8 +1568,8 @@ Dirección: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Introduce una dirección VegasCoin (ej. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Introduce una dirección VegasCoin (ej. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="-2"/>
