@@ -60,17 +60,14 @@ public:
         if(amount < 0)
         {
             foreground = COLOR_NEGATIVE;
-            background = COLOR_BACKGROUND;
         }
         else if(!confirmed)
         {
             foreground = COLOR_UNCONFIRMED;
-            background = COLOR_BACKGROUND;
         }
         else
         {
             foreground = option.palette.color(QPalette::Text);
-            background = COLOR_BACKGROUND;
         }
 
 //        QPalette Pal(palette());
