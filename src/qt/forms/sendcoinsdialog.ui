@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(198, 198, 198);
+background-color: rgb(0, 0, 0);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QScrollArea" name="scrollArea">
@@ -29,7 +33,16 @@
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
         <number>0</number>
        </property>
        <item>
@@ -63,6 +76,11 @@
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string>Add &amp;Recipient</string>
        </property>
@@ -85,6 +103,11 @@
        </property>
        <property name="toolTip">
         <string>Remove all transaction fields</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
        </property>
        <property name="text">
         <string>Clear &amp;All</string>
@@ -151,6 +174,11 @@
        </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
        </property>
        <property name="text">
         <string>S&amp;end</string>

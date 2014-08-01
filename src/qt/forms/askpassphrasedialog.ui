@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>Passphrase Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(198, 198, 198);
+background-color: rgb(0, 0, 0);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="warningLabel">
@@ -103,6 +107,12 @@
    </item>
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);
+</string>
+     </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>

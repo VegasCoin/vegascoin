@@ -7,11 +7,15 @@
     <x>0</x>
     <y>0</y>
     <width>340</width>
-    <height>530</height>
+    <height>540</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>QR Code Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(198, 198, 198);
+background-color: rgb(0, 0, 0);</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
@@ -171,6 +175,11 @@
         </item>
         <item>
          <widget class="QPushButton" name="btnSaveAs">
+          <property name="styleSheet">
+           <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+          </property>
           <property name="text">
            <string>&amp;Save As...</string>
           </property>
@@ -188,6 +197,7 @@
    <class>VegascoinAmountField</class>
    <extends>QSpinBox</extends>
    <header>vegascoinamountfield.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>
