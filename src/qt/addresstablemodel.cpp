@@ -57,6 +57,7 @@ public:
     void refreshAddressTable()
     {
         cachedAddressTable.clear();
+
         {
             LOCK(wallet->cs_wallet);
             BOOST_FOREACH(const PAIRTYPE(CTxDestination, std::string)& item, wallet->mapAddressBook)
