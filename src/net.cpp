@@ -1192,10 +1192,14 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"VegasCoin.co","node.vegascoin.co"}, // MAIN / US-WEST
-    {"nodes.vegascoin.co","nodes.vegascoin.co"}, //GENERIC
-    {"eu.nodes.vegascoin.co","eu.nodes.vegascoin.co"}, //EUROPE
-    {"east.us.nodes.vegascoin.co","east.us.nodes.vegascoin.co"}, //US EAST
+    {"VegasCoin.co"              , "node.vegascoin.co"}         , // MAIN
+    {"nodes.vegascoin.co"        , "nodes.vegascoin.co"}        , //GENERIC
+    {"west.eu.nodes.vegascoin.co", "west.eu.nodes.vegascoin.co"}, //WEST EUROPE
+    {"east.eu.nodes.vegascoin.co", "east.eu.nodes.vegascoin.co"}, //EAST EUROPE
+    {"east.us.nodes.vegascoin.co", "east.us.nodes.vegascoin.co"}, //US EAST
+    {"west.us.nodes.vegascoin.co", "west.us.nodes.vegascoin.co"}, //US WEST
+    {"asia.nodes.vegascoin.co"   , "asia.nodes.vegascoin.co"}   , //ASIA
+    {"oceania.nodes.vegascoin.co", "oceania.nodes.vegascoin.co"}, //OCEANIA
     {NULL, NULL}
 };
 
