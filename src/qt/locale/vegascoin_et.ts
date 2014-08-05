@@ -1406,8 +1406,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Tehingu saaja aadress (nt: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to send the payment to (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Tehingu saaja aadress (nt: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Sisesta VegasCoini aadress (nt: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Sisesta VegasCoini aadress (nt: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Sõnumi signeerimise aadress (nt: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to sign the message with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Sõnumi signeerimise aadress (nt: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address the message was signed with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Sisesta VegasCoini aadress (nt: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Sisesta VegasCoini aadress (nt: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="-2"/>

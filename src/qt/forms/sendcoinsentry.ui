@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(198, 198, 198);
+background-color: rgb(0, 0, 0);</string>
+  </property>
   <property name="frameShape">
    <enum>QFrame::StyledPanel</enum>
   </property>
@@ -85,6 +89,11 @@
        <property name="toolTip">
         <string>Choose address from address book</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -102,6 +111,11 @@
        <property name="toolTip">
         <string>Paste address from clipboard</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -118,6 +132,11 @@
       <widget class="QToolButton" name="deleteButton">
        <property name="toolTip">
         <string>Remove this recipient</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
        </property>
        <property name="text">
         <string/>
@@ -142,7 +161,7 @@
  <customwidgets>
   <customwidget>
    <class>VegascoinAmountField</class>
-   <extends>QLineEdit</extends>
+   <extends>QSpinBox</extends>
    <header>vegascoinamountfield.h</header>
    <container>1</container>
   </customwidget>

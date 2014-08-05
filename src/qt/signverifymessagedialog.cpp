@@ -24,10 +24,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter VegasCoin signature"));
 #endif
 

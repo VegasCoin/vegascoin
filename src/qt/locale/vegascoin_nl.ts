@@ -1407,8 +1407,8 @@ Adres: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Het adres waaraan u wilt betalen  (bijv. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>The address to send the payment to (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Het adres waaraan u wilt betalen  (bijv. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Vul een VegasCoinadres in (bijv. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Vul een VegasCoinadres in (bijv. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Het adres om het bericht mee te ondertekenen (Vb.: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX).</translation>
+        <source>The address to sign the message with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Het adres om het bericht mee te ondertekenen (Vb.: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL).</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1544,8 +1544,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Het adres waarmee bet bericht was ondertekend (Vb.: FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX).</translation>
+        <source>The address the message was signed with (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Het adres waarmee bet bericht was ondertekend (Vb.: QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL).</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a VegasCoin address (e.g. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</source>
-        <translation>Vul een VegasCoinadres in (bijv. FNHGjAavM3RPqFZ4h3YEqT4uoNxENoY7MX)</translation>
+        <source>Enter a VegasCoin address (e.g. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</source>
+        <translation>Vul een VegasCoinadres in (bijv. QcV4kzBs7ZivJR7QZvZCDvdvi6rmGVzJLL)</translation>
     </message>
     <message>
         <location line="-2"/>

@@ -139,6 +139,8 @@ VegascoinGUI::VegascoinGUI(QWidget *parent) :
     statusBar()->addWidget(progressBar);
     statusBar()->addPermanentWidget(frameBlocks);
 
+    statusBar()->setStyleSheet("background-color:black; color:white;");
+
     syncIconMovie = new QMovie(":/movies/update_spinner", "mng", this);
 
     rpcConsole = new RPCConsole(this);
@@ -262,6 +264,8 @@ void VegascoinGUI::createMenuBar()
     appMenuBar = menuBar();
 #endif
 
+    appMenuBar->setStyleSheet("background-color:black; color:white;");
+
     // Configure the menus
     QMenu *file = appMenuBar->addMenu(tr("&File"));
     file->addAction(backupWalletAction);
@@ -292,6 +296,7 @@ void VegascoinGUI::createToolBars()
     toolbar->addAction(receiveCoinsAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
+    toolbar->setStyleSheet("background-color:black; color:white;");
 }
 
 void VegascoinGUI::setClientModel(ClientModel *clientModel)

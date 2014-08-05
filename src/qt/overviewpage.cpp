@@ -46,6 +46,8 @@ public:
         bool confirmed = index.data(TransactionTableModel::ConfirmedRole).toBool();
         QVariant value = index.data(Qt::ForegroundRole);
         QColor foreground = option.palette.color(QPalette::Text);
+        QColor background = option.palette.color(QPalette::Background);
+
         if(value.canConvert<QBrush>())
         {
             QBrush brush = qvariant_cast<QBrush>(value);
@@ -67,7 +69,15 @@ public:
         {
             foreground = option.palette.color(QPalette::Text);
         }
+
+//        QPalette Pal(palette());
+//        // set black background
+//        Pal.setColor(QPalette::Background, Qt::black);
+//        painter->setAutoFillBackground(true);
+//        painter->setPalette(Pal);
+
         painter->setPen(foreground);
+        painter->setBackground(background);
         QString amountText = VegascoinUnits::formatWithUnit(unit, amount, true);
         if(!confirmed)
         {

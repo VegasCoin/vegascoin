@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>760</width>
+    <width>871</width>
     <height>380</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Address Book</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(198, 198, 198);
+background-color: rgb(0, 0, 0);</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -36,7 +40,7 @@
       <bool>false</bool>
      </property>
      <property name="alternatingRowColors">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="selectionMode">
       <enum>QAbstractItemView::SingleSelection</enum>
@@ -59,6 +63,11 @@
        <property name="toolTip">
         <string>Create a new address</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string>&amp;New Address</string>
        </property>
@@ -73,6 +82,11 @@
        <property name="toolTip">
         <string>Copy the currently selected address to the system clipboard</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string>&amp;Copy Address</string>
        </property>
@@ -84,6 +98,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="showQRCode">
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string>Show &amp;QR Code</string>
        </property>
@@ -97,6 +116,11 @@
       <widget class="QPushButton" name="signMessage">
        <property name="toolTip">
         <string>Sign a message to prove you own a VegasCoin address</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
        </property>
        <property name="text">
         <string>Sign &amp;Message</string>
@@ -112,6 +136,11 @@
        <property name="toolTip">
         <string>Verify a message to ensure it was signed with a specified VegasCoin address</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string>&amp;Verify Message</string>
        </property>
@@ -125,6 +154,11 @@
       <widget class="QPushButton" name="deleteAddress">
        <property name="toolTip">
         <string>Delete the currently selected address from the list</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
        </property>
        <property name="text">
         <string>&amp;Delete</string>
@@ -153,6 +187,11 @@
        <property name="toolTip">
         <string>Export the data in the current tab to a file</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
+       </property>
        <property name="text">
         <string>&amp;Export</string>
        </property>
@@ -169,6 +208,11 @@
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: bold 9pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(183, 13, 13);</string>
        </property>
        <property name="standardButtons">
         <set>QDialogButtonBox::Ok</set>
