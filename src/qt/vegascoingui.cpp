@@ -264,7 +264,8 @@ void VegascoinGUI::createMenuBar()
     appMenuBar = menuBar();
 #endif
 
-    appMenuBar->setStyleSheet("background-color:black; color:white;");
+    appMenuBar->setStyleSheet("background-color : black; color : white; ");
+    appMenuBar->setStyleSheet("QMenuBar::item { background: black; color: white; }");
 
     // Configure the menus
     QMenu *file = appMenuBar->addMenu(tr("&File"));
